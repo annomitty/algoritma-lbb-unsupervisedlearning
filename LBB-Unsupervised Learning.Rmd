@@ -1,0 +1,29 @@
+---
+title: "LBB-Unsupervised Learning"
+author: "annomitty"
+date: "9/19/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+CALL LIBRARY
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(GGally)
+library(gridExtra)
+library(factoextra)
+library(FactoMineR)
+library(plotly)
+```
+
+READ DATA
+
+```{r}
+read.csv("SpotifyFeatures.csv")
+```
+
